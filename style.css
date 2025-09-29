@@ -1,0 +1,122 @@
+body {
+	margin: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+	background-color: #c4dbff;
+}
+ul.topnav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #befdff;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+   font-family: cursive;
+   display: block;
+   color: #070003;
+   text-align: center;
+   padding: 12px 14px;
+   text-decoration: none;
+}
+ul.topnav li a:hover:not(.active)
+{background-color: #111;}
+ul.top li a.active {background-color:#de9d21; }
+
+@media screen and(max-width: 600px){
+	ul.topnav,
+	ul.topnav li {float: none;}
+img{
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+#last {clear: left;}
+
+
+.form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="message"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+ input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+img div {
+  float: left;
+  margin-top:5px;
+  margin-bottom: 3px;
+  height: 3px;
+  width: 6px;
+
+}
+
+#container {
+  display: grid;
+  grid-template-columns: (300px 300px 300px);
+  grid-template-rows: (200px 200px);
+  gap: 16px;
+}
+
+#item {
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
